@@ -1,9 +1,9 @@
 # Django-API-12.02.2025
 
-1.	Steps to run program
-•	Basically all works like general Django APIs.
-•	To include built in mock data use url-extension „/api/create-mock/“.
-•	For requests include compnay_id and date like „/api/data/1/2025-02-11“.
+**Steps to run program**
+- Basically all works like general Django APIs.
+- To include built in mock data use url-extension „/api/create-mock/“.
+- For requests include compnay_id and date like „/api/data/1/2025-02-11“.
 
 2.	Design decisions and assumptions; maintainability, scalability, performance
 •	Basically, I used a standard design of a Django API and tried to keep things simple. While the creation of mock data in views is clearly not very beautiful, it ensures that the mock data can be created in one step. This leads to simple testing which makes the use of the program easier similar to the use of comments in code, telling variable-names and code separation over different classed in separate files. I used rest_framework since it makes views and serialization easier.
